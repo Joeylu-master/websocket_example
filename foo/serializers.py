@@ -8,3 +8,7 @@ class FooSerializer(serializers.ModelSerializer):
     class Meta:
         model = Foo
         fields = ('bar',)
+
+
+    def get_group_name(self):
+        pass

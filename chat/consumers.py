@@ -41,15 +41,19 @@ class ChatConsumer(WebsocketConsumer):
                 # 下划线或者'.'的都会被Channels转换为下划线处理，
                 # 所以这里写 'chat.message'也没问题
                 'type': 'chat.message',
-                'message': message
+                'message': message,
+                'id':1
+                # 'status': False
             }
         )
 
     # 从聊天室拿到消息，后直接将消息返回回去
     def chat_message(self, event):
-        message = event['message']
+        # message = event['message']
+        message=True
 
         # Send message to WebSocket
         self.send(text_data=json.dumps({
-            'message': message
+            'message': message,
+            'status' : False
         }))

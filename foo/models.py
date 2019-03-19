@@ -2,7 +2,7 @@ from asgiref.sync import async_to_sync
 from django.db import models
 from model_utils import FieldTracker
 
-from foo.notifications import update_foo
+
 
 
 class Foo(models.Model):
@@ -17,3 +17,24 @@ class Foo(models.Model):
             # function from inside a synchronous context:
             async_to_sync(update_foo)(self)
         return ret
+
+
+from channels.layers import get_channel_layer
+from .serializers import FooSerializer
+
+async def update_foo(foo):
+    serializer = FooSerializer(foo)
+    group_name = serializer.get_group_name()
+    channel_layer = get_channel_layer()
+    content = {
+        # This "type" passes through to the front-end to facilitate
+        # our Redux events.
+        "type": "UPDATE_FOO",
+        "payload": serializer.data,
+    }
+    await channel_layer.group_send(group_name, {
+        # This "type" defines which handler on the Consumer gets
+        # called.
+        "type": "notify",
+        "content": content,
+    })
