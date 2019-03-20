@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de10e865-bf29-4a32-8c18-c18cb2dce6b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/consumers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foo/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/consumers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/routing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/notifications.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/notifications.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/foo/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket_example/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/websocket_example/routing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket_example/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/websocket_example/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="de10e865-bf29-4a32-8c18-c18cb2dce6b0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/websocket_example/routing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -56,9 +42,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo/tests.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -237,12 +232,12 @@
       <workItem from="1552788053572" duration="3450000" />
       <workItem from="1552829539009" duration="1013000" />
       <workItem from="1552947792958" duration="3690000" />
-      <workItem from="1553037073266" duration="1610000" />
+      <workItem from="1553037073266" duration="1860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19535000" />
+    <option name="totallyTimeSpent" value="19785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +258,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40333796" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37413073" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50486785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962447" />
@@ -271,7 +266,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21140473" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21140473" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962447" />
       <window_info anchor="bottom" id="manage.py@websocket_example" order="13" weight="0.34770516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -455,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/websocket_example/routing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -464,6 +459,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foo/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

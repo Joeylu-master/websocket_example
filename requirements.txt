@@ -4,7 +4,7 @@ async-timeout==3.0.1
 atomicwrites==1.3.0
 attrs==19.1.0
 autobahn==19.2.1
-Automat==0.7.0
+Automat==0.7.0git rm -r --cached .
 channels==2.1.7
 channels-redis==2.3.3
 constantly==15.1.0
